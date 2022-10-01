@@ -111,7 +111,7 @@ function handleBoardClick(ev) {
 	} else if (vBoard.flat().includes("")) {
 		turnPlayer = turnPlayer === "player1" ? "player2" : "player1";
 	} else {
-		document.querySelector("h2").innerHTML = "Empate!";
+		alert("Empate!");
 	}
 }
 // Adiciona o evento no botão que inicia o jogo

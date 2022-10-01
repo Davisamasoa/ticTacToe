@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jogo da velha</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<script defer src="./script/script.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Jogo da Velha</h1>
+		</header>
+		<main>
+			<h3 style="color: white">Vez de:</h3>
+			<div class="players">
+				<span class="p1" id="turnPlayer">Jogador 1:</span>
+				<span class="p2">Jogador 2:</span>
+			</div>
+			<div class="row">
+				<div class="cell" data-position="0.0"></div>
+				<div class="cell" data-position="0.1"></div>
+				<div class="cell" data-position="0.2"></div>
+			</div>
+			<div class="row">
+				<div class="cell" data-position="1.0"></div>
+				<div class="cell" data-position="1.1"></div>
+				<div class="cell" data-position="1.2"></div>
+			</div>
+			<div class="row">
+				<div class="cell" data-position="2.0"></div>
+				<div class="cell" data-position="2.1"></div>
+				<div class="cell" data-position="2.2"></div>
+			</div>
+		</main>
+		<div class="btn-div">
+			<button class="startGame">Start Game</button>
+		</div>
+		<div class="tryAgain" style="display: none">
+			<button><i class="bi bi-arrow-repeat"></i></button>
+		</div>
+	</body>
+</html>
